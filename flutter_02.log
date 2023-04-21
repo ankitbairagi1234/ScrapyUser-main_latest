@@ -1,0 +1,83 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --release --no-sound-null-safety
+
+## exception
+
+SocketException: SocketException: Error event raised in event handler : error condition has been reset, port = 0
+
+```
+#0      _NativeSocket.multiplex (dart:io-patch/socket_patch.dart:1413:30)
+#1      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:192:12)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.3.6, on Ubuntu 20.04.3 LTS 5.15.0-52-generic, locale en_IN)
+    • Flutter version 3.3.6 on channel stable at /home/alphawizz/Downloads/flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 6928314d50 (3 weeks ago), 2022-10-25 16:34:41 -0400
+    • Engine revision 3ad69d7be3
+    • Dart version 2.18.2
+    • DevTools version 2.15.0
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 33.0.0)
+    • Android SDK at /home/alphawizz/Android/Sdk
+    • Platform android-33, build-tools 33.0.0
+    • Java binary at: /snap/android-studio/125/android-studio/jre/bin/java
+    • Java version OpenJDK Runtime Environment (build 11.0.13+0-b1751.21-8125866)
+    • All Android licenses accepted.
+
+[✗] Chrome - develop for the web (Cannot find Chrome executable at google-chrome)
+    ! Cannot find Chrome. Try setting CHROME_EXECUTABLE to a Chrome executable.
+
+[✓] Linux toolchain - develop for Linux desktop
+    • clang version 10.0.0-4ubuntu1
+    • cmake version 3.16.3
+    • ninja version 1.10.0
+    • pkg-config version 0.29.1
+
+[✓] Android Studio (version 2021.3)
+    • Android Studio at /snap/android-studio/125/android-studio
+    • Flutter plugin version 70.0.3
+    • Dart plugin version 213.7371
+    • Java version OpenJDK Runtime Environment (build 11.0.13+0-b1751.21-8125866)
+
+[✓] Android Studio (version 2021.1)
+    • Android Studio at /opt/android-studio-2021.1.1/android-studio
+    • Flutter plugin version 70.0.1
+    • Dart plugin version 211.7817
+    • Java version OpenJDK Runtime Environment (build 11.0.11+0-b60-7590822)
+
+[✓] Android Studio
+    • Android Studio at /opt/android-studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 11.0.11+0-b60-7590822)
+
+[✓] VS Code (version 1.71.2)
+    • VS Code at /usr/share/code
+    • Flutter extension can be installed from:
+      🔨 https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+
+[✓] VS Code
+    • VS Code at /snap/code/current
+    • Flutter extension can be installed from:
+      🔨 https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+
+[✓] Connected device (2 available)
+    • M2006C3MII (mobile) • JZZ9UGFYVG95BIXC • android-arm • Android 10 (API 29)
+    • Linux (desktop)     • linux            • linux-x64   • Ubuntu 20.04.3 LTS 5.15.0-52-generic
+
+[!] HTTP Host Availability
+    ✗ HTTP host "https://cloud.google.com/" is not reachable. Reason: Failed to connect to host in
+      10 seconds
+
+! Doctor found issues in 2 categories.
+```

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "180378115952",
+    "project_id": "scrapy-12a3d",
+    "storage_bucket": "scrapy-12a3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180378115952:android:8eed0684010e0d0bfb39b5",
+        "android_client_info": {
+          "package_name": "com.scrapy.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180378115952-f0shr5bcoemefl1mhpne7q0f9qocf8sm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkRPEqs3GkCTt4OEEMJldBCoeXVC42ZXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180378115952-f0shr5bcoemefl1mhpne7q0f9qocf8sm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
